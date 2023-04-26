@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{8A6BEE38-894F-46B2-B428-760D8832E8C5}|Default">
+  <MonoDevelop.Ide.ItemProperties.MosOilConn PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MosOilConn/Controllers/FuelController.cs">
+    <Files>
+      <File FileName="MosOilConn/Controllers/UserController.cs" />
+      <File FileName="MosOilConn/DTO/LoginDTO.cs" />
+      <File FileName="MosOilConn/Properties/launchSettings.json" />
+      <File FileName="MosOilConn/appsettings.json" />
+      <File FileName="MosOilConn/Program.cs" />
+      <File FileName="MosOilConn/Entities/Order.cs" />
+      <File FileName="MosOilConn/DTO/FuelColumn.cs" />
+      <File FileName="MosOilConn/Controllers/FuelController.cs" Line="27" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MosOilConn" expanded="True">
+            <Node name="MosOilConn" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="FuelController.cs" selected="True" />
+              </Node>
+              <Node name="DTO" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
