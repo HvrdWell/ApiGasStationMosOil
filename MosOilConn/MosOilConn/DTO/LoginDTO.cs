@@ -3,8 +3,8 @@ namespace MosOilConn
 {
     public class LoginDTO
     {
-        public string Name { get; set; }
-        public string authToken { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
     }
 }
 

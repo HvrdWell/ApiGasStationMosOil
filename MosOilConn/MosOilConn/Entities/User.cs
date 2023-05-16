@@ -7,7 +7,7 @@ public partial class User
 {
     public int IdUser { get; set; }
 
-    public int IdCard { get; set; }
+    public int? IdCard { get; set; }
 
     public string Login { get; set; } = null!;
 
@@ -32,8 +32,6 @@ public partial class User
     public string StatusUser { get; set; } = null!;
 
     public string Gender { get; set; } = null!;
-
-    public string? AuthToken { get; set; }
 
     public virtual UserGender GenderNavigation { get; set; } = null!;
 

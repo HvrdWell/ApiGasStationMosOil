@@ -1,19 +1,22 @@
 ﻿<Properties StartupConfiguration="{8A6BEE38-894F-46B2-B428-760D8832E8C5}|Default">
-  <MonoDevelop.Ide.ItemProperties.MosOilConn PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MosOilConn/Controllers/FuelController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MosOilConn/Controllers/OrderController.cs">
     <Files>
-      <File FileName="MosOilConn/Controllers/UserController.cs" />
-      <File FileName="MosOilConn/DTO/LoginDTO.cs" />
-      <File FileName="MosOilConn/Properties/launchSettings.json" />
-      <File FileName="MosOilConn/appsettings.json" />
+      <File FileName="MosOilConn/Controllers/UserController.cs" Line="50" Column="26" />
+      <File FileName="MosOilConn/Controllers/AuthController.cs" Line="79" Column="1" />
+      <File FileName="MosOilConn/Controllers/ExolveSMSAuthController.cs" Line="54" Column="1" />
+      <File FileName="MosOilConn/Entities/User.cs" />
       <File FileName="MosOilConn/Program.cs" />
-      <File FileName="MosOilConn/Entities/Order.cs" />
-      <File FileName="MosOilConn/DTO/FuelColumn.cs" />
-      <File FileName="MosOilConn/Controllers/FuelController.cs" Line="27" Column="10" />
+      <File FileName="MosOilConn/Controllers/AppFuncController.cs" />
+      <File FileName="MosOilConn/Controllers/OrderController.cs" Line="28" Column="14" />
+      <File FileName="MosOilConn/Controllers/BonusCardController.cs" Line="1" Column="1" />
+      <File FileName="MosOilConn/Entities/Order.cs" Line="8" Column="23" />
+      <File FileName="MosOilConn/Entities/TestdbContext.cs" Line="27" Column="1" />
+      <File FileName="MosOilConn/Entities/StatusOrder.cs" Line="1" Column="1" />
+      <File FileName="MosOilConn/DTO/OrderDTO.cs" Line="11" Column="43" />
+      <File FileName="MosOilConn/appsettings.json" Line="1" Column="1" />
+      <File FileName="MosOilConn/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="MosOilConn/Entities/UserRole.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +27,7 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True">
-                <Node name="FuelController.cs" selected="True" />
+                <Node name="OrderController.cs" selected="True" />
               </Node>
               <Node name="DTO" expanded="True" />
               <Node name="Entities" expanded="True" />
@@ -35,6 +38,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MosOilConn PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/geka231/Documents/GitHub/ApiGasStationMosOil/MosOilConn/MosOilConn/Controllers/CallController.cs" relfile="MosOilConn/Controllers/CallController.cs" line="69" column="1" />
+      <Breakpoint file="/Users/geka231/Documents/GitHub/ApiGasStationMosOil/MosOilConn/MosOilConn/PeopleController.cs" relfile="MosOilConn/PeopleController.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

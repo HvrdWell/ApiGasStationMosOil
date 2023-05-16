@@ -34,32 +34,11 @@ namespace MosOilConn.Controllers
             _config = config;
         }
 
-        [HttpGet("GetUsers")]
-        public async Task<ActionResult<List<UserDTO>>> Get()
-        {
-            var List = await TestdbContext.Users.Select(
-                s => new UserDTO
-                {
-                    idUser = s.IdUser,
-                    idCard = s.IdCard,
-                    phoneNumber = s.PhoneNumber,
-                    role = s.Role
-                }
-            ).ToListAsync();
 
-            if (List.Count < 0)
-            {
-                return NotFound();
-            }
-            else
-            {
-                return List;
-            }
-        }
+
 
       
 
-        [HttpPost]
 
         [HttpGet("GetUserById")]
         public async Task<ActionResult<UserDTO>> GetUserById(int idUser)
@@ -68,7 +47,7 @@ namespace MosOilConn.Controllers
                     s => new UserDTO
                     {
                         idUser = s.IdUser,
-                        idCard = s.IdCard,
+                       // idCard = s.IdCard,
                         phoneNumber = s.PhoneNumber,
                         role = s.Role
 

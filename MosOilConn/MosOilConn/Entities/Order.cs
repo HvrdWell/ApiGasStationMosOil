@@ -9,7 +9,7 @@ public partial class Order
 
     public int IdColumns { get; set; }
 
-    public DateTime Data { get; set; }
+    public DateTime Data { get; set; } = DateTime.Now;
 
     public int IdUser { get; set; }
 

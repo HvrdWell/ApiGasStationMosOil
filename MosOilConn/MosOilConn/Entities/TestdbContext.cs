@@ -47,7 +47,7 @@ public partial class TestdbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=reallyStrongPwd123;database=testdb");
+            optionsBuilder.UseMySQL("server=rc1b-65vs4bpq68f1pque.mdb.yandexcloud.net;port=3306;user=SA;password=reallyStrongPwd123;database=testdb;");
         }
     }
 

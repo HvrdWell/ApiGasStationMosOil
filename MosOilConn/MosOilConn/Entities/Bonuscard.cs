@@ -9,5 +9,7 @@ public partial class Bonuscard
 
     public int ScoresCard { get; set; }
 
+    public int numberOfQR { get; set; } 
+
     public virtual ICollection<User> Users { get; } = new List<User>();
 }
